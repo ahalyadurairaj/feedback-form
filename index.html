@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+    <title>Feedback Form</title>
+</head>
+<body>
+    <form name="feedback_form">
+        <div id="error"></div>
+        <h1>Feedback Form</h1>
+        <div>
+            <input type="text" name="username" placeholder="Enter a username" class="text">
+        </div>
+       <div id="Feedback">
+         <div>
+            <input type="radio" name="feeadback_type" value="General Feedback"> 
+            <label for="">General Feedback</label>         
+         </div>
+         <div>
+            <input type="radio" name="feeadback_type" value="Technical Feedback"> 
+            <label for="">Technical Feedback</label>   
+         </div>
+         <div>
+            <input type="radio" name="feeadback_type" value="Data  Lost Issuse">
+            <label for="">Data  Lost Issuse</label>    
+         </div>
+    </div>
+    <div>
+        <input type="text" name="emailid" placeholder="Enter a email_id" class="text">
+    </div>
+    <div>
+        <textarea name="discription" id="text_area" cols="30" rows="10" placeholder="Enter your feedback briefly"></textarea>
+    </div>
+    <div>
+        <input type="checkbox" name="checkbox">
+        <label for="">I accept the terms and conditions of this feedback form</label>
+    </div>
+    <div>
+        <button name="result">Submit</button>
+    </div>
+    </form>
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

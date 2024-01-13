@@ -1,0 +1,60 @@
+body{
+    max-width: 1440px;
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+    font-size: 20px;
+}
+
+form{
+    padding: 20px;
+   
+    width: 50%;
+    height: 500px;
+    margin-left:20%;
+    background-color: rgb(167, 158, 176);
+
+}
+
+#Feedback{
+    display: flex;
+    margin-top: 20px;
+}
+
+h1{
+    text-align: center;
+}
+#error{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+button{
+    width: 100%;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(43, 43, 222);
+    color: white;
+    margin-top: 20px;
+}
+.text{
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    /* margin-top: px; */
+}
+#text_area{
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 7px;
+}
+
+.sty{
+    background-color: red;
+    color: white;
+}
